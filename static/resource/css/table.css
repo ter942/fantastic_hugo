@@ -1,0 +1,32 @@
+/* ************************** 
+Styles for Fantastic Worlds
+copyright © Tom Reilly 2009 
+***************************** */
+#content table {
+	border-collapse:collapse;
+	border: 1px solid #000000;
+	margin-left:18%;
+	margin-bottom:1cm;
+}
+
+#content table tr {
+	background-color:#cccccc;
+	text-align:left;
+	border: 2px solid #000000;
+}
+/*Table heading text styles*/
+#content tr th{
+	font-size:25pt;
+	font-family:sans-serif;
+	text-align:center;
+}
+/* End Table heading text styles */
+
+#content td {
+	background-color:#cccccc;
+	border: 2px solid #000000;
+	/*padding: 25px;*/
+}
+#content td img {
+	border:none;
+}

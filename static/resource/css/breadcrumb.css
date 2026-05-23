@@ -1,0 +1,36 @@
+/*Styles for breadcrumbs */
+
+.breadcrumb{
+font: bold 14px "Lucida Grande", "Trebuchet MS", Verdana, Helvetica, sans-serif;
+border: 1px #666633 solid;
+
+background-color:#ffffcc;
+padding: 1em 1em 2em 1em;
+margin-right:16%;
+margin-left:16%;
+}
+
+.breadcrumb .crumb{
+float:left;
+margin:0;
+}
+
+.breadcrumb a{
+background: transparent url(../gif/breadcrumb.gif) no-repeat center right;
+text-decoration: none;
+padding-right: 18px; /*adjust bullet image padding*/
+color: #666666;
+}
+
+.breadcrumb a:visited, .breadcrumb a:active{
+color: #996633;
+}
+
+.breadcrumb a:hover{
+text-decoration: underline;
+}
+
+.breadcrumb form {
+/*display:inline;*/
+float:right;
+}

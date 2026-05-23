@@ -1,0 +1,11 @@
+baseURL = "https://fantastic-worlds.netlify.app/"
+locale = "en-au"
+title = "Fantastic Worlds"
+
+[pagination]
+  pagerSize = 5
+
+[params]
+  description = "Fantastic Worlds — Classic Sci-Fi and Horror Movies"
+  author = "Tom Reilly"
+  analyticsID = "UA-19919597-1"

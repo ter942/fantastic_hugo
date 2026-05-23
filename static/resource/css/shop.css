@@ -1,0 +1,58 @@
+/* ********************************************************************************
+Stylesheet for Fantastic Worlds
+Styles for shop.html.php
+Made by: Tom Reilly  
+*********************************************************************************** */
+.productbox {
+	display:block;
+	border:1px #000000 solid;
+	margin:0em 1em 1em 1em;
+	padding:0;
+	height:12em;
+}
+.productbox img {
+	border:0;
+	/*margin-top:10pt;*/
+	margin-left:5pt;
+	float:left;
+	
+}
+.productbox h2 {
+font-family:normal normal bold Arial,Helvetica,sans-serif;
+}
+.productbox p {
+	
+	padding: 0;
+	margin-top:1pt;
+	width: 80%;
+	/*margin-left:1.3in;*/
+	font-size:13pt;
+	font-family:normal normal bold Arial,Helvetica,sans-serif;
+	/*float:right;*/
+}
+
+.productbox a {
+text-decoration:none;
+}
+.productbox ul  {
+float:right;
+}
+
+#content .heading2 {
+	border-bottom:#000000 2.4pt double;
+	margin: 0em 1em 1em 1em;
+	padding-left:40pt;
+	font-family:normal normal bold Arial,Helvetica,sans-serif;
+}
+#content #catagories {
+	/*float:right;*/
+	border:2px red solid;
+	width:4.2cm;
+	margin:0 0 1cm 1cm;
+}
+#content #catagories h2 {
+	margin-top:0;
+	border-bottom:2px solid red;
+	text-align:center;
+	font-family:normal normal bold Arial,Helvetica,sans-serif;
+}

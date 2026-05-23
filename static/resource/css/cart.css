@@ -1,0 +1,48 @@
+/* ************************** 
+Styles for Fantastic Worlds
+copyright © Tom Reilly 2009 
+***************************** */
+#content #cart table {
+	/*position:absolute;
+	top: 100px;
+	left:200px;*/
+	border-collapse:collapse;
+	border: 1px solid #000000;
+	margin-left:20%;
+	margin-right:20%;
+	margin-bottom:1cm;
+
+
+}
+
+#content #cart table tr {
+	background-color:#cccccc;
+	text-align:left;
+	border:1.5pt solid #000000;
+	background-color:#FFD700;
+}
+/*Table heading text styles*/
+#content #cart tr th{
+	font-size:10pt;
+	font-family:sans-serif;
+	text-align:center;
+}
+/* End Table heading text styles */
+
+#content #cart td {
+	background-color:#cccccc;
+	border: 1.5pt solid #000000;
+	/*padding: 25px;*/
+}
+#content #cart td img {
+	border:none;
+}
+#content #cart #paragraph {
+	text-align:center; 
+	font-family: Sans-serif;
+	font-weight:bold;
+	font-size:100pt;
+	border:1.5px solid #000000;
+	background-color:#ffd700;
+	margin:2pt;
+	}

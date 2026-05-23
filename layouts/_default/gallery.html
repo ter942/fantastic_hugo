@@ -1,0 +1,26 @@
+{{ define "main" }}
+
+<link rel="stylesheet" href="/gallery/css/lightbox.css" type="text/css" media="screen" />
+<script type="text/javascript" src="/gallery/js/prototype.js"></script>
+<script type="text/javascript" src="/gallery/js/scriptaculous.js?load=effects,builder"></script>
+<script type="text/javascript" src="/gallery/js/lightbox.js"></script>
+
+<h1>Gallery</h1>
+<p>A selection of images from the Fantastic Worlds collection.</p>
+
+<table class="table">
+  <tr>
+    {{ $thumbs := readDir "static/gallery/thumb" }}
+    {{ range $i, $thumb := $thumbs }}
+      {{ $name := $thumb.Name }}
+      {{ $base := $name | replaceRE "\\.jpg$" "" }}
+      <td>
+        <a href="/gallery/images/image-1.jpg" rel="lightbox[gallery]" title="{{ $base }}">
+          <img src="/gallery/thumb/{{ $name }}" alt="{{ $base }}" />
+        </a>
+      </td>
+      {{ if eq (mod (add $i 1) 4) 0 }}</tr><tr>{{ end }}
+    {{ end }}
+  </tr>
+</table>
+{{ end }}

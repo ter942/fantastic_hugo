@@ -1,0 +1,40 @@
+/* ************************** 
+Styles for mobile Fantastic Worlds
+copyright © Tom Reilly 2009 
+***************************** */
+body {
+width:100%
+padding:0;
+margin:0;
+}
+
+.mainnavh1 {
+text-align:center;
+background-color:e8e8e8;
+border-bottom:red 2px solid;
+width:100%;
+}
+#content {
+	border:2px #663300 solid;
+	width:100%;
+}
+.menu {
+background-color:#e4e4e4;
+border:2px #663300 solid;
+width:100%;
+
+}
+.mainnavlink {
+display:block;
+text-align:center;
+text-decoration:none;
+background-color:#b7b7b7;
+font-size:10pt;
+margin-left:0;
+padding-left:0;
+margin-bottom:10px;
+}
+li li , li span, #login {
+display:none;
+}
+

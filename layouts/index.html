@@ -1,0 +1,28 @@
+{{ define "main" }}
+<h1>{{ .Title }}</h1>
+
+<div id="offer1">
+  <img alt="special offer" src="/resource/png/special_offer.png" />
+</div>
+
+<h2>About this website.</h2>
+
+{{ .Content }}
+
+<div id="table">
+  <table class="table">
+    <tr>
+      <th colspan="3">Recently Added</th>
+    </tr>
+    <tr>
+      {{ range first 3 (where .Site.RegularPages "Section" "movies") }}
+      <td>
+        <a href="{{ .RelPermalink }}">
+          <img alt="{{ .Title }}" src="/resource/jpg/covers/resized/{{ .Params.image | replaceRE "\\.jpg$" "-icon.jpg" }}" />
+        </a>
+      </td>
+      {{ end }}
+    </tr>
+  </table>
+</div>
+{{ end }}

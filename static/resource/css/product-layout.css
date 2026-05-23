@@ -1,0 +1,73 @@
+/* Product page layout */
+#product {
+  overflow: hidden;
+}
+
+#product-image {
+  float: right;
+  margin: 0 0 1em 1.5em;
+}
+
+#product-specs {
+  float: right;
+  clear: right;
+  margin: 0 0 1em 1.5em;
+  font-size: 0.9em;
+}
+
+#product-detail {
+  overflow: hidden;
+}
+
+.aka {
+  margin-top: 1em;
+  padding: 0.5em;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+}
+
+.aka ul {
+  margin: 0.5em 0 0 1.5em;
+  padding: 0;
+}
+
+/* Catalogue list */
+.productbox {
+  border-bottom: 1px solid #ccc;
+  padding: 1em 0;
+  overflow: hidden;
+}
+
+.productbox img {
+  float: left;
+  margin: 0 1em 0.5em 0;
+}
+
+.productbox h2 {
+  margin: 0 0 0.25em 0;
+}
+
+.productbox .year {
+  color: #666;
+  font-size: 0.9em;
+  margin: 0 0 0.5em 0;
+}
+
+/* Pagination */
+.pagination {
+  margin: 1.5em 0;
+  text-align: center;
+}
+
+.pagination a, .pagination strong {
+  display: inline-block;
+  padding: 0.3em 0.7em;
+  margin: 0 0.1em;
+  border: 1px solid #aaa;
+}
+
+.pagination strong {
+  background-color: #cc3300;
+  color: #fff;
+  border-color: #cc3300;
+}

@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "code": "E",
+    "label": "Exempt from Classification",
+    "note": "These films are granted permission to be sold without a specific classification. This classification is usually granted to (and not limited to) educational content such as documentaries, concerts, fitness programmes, educational software and non-violent sporting events.",
+    "image": "E.png"
+  },
+  {
+    "id": 2,
+    "code": "G",
+    "label": "General Exhibition",
+    "note": "These films are for general viewing. However, G does not necessarily designate a children's film or game as many of these productions contain content that would be of no interest to children. The content is very mild in impact.",
+    "image": "G.jpg"
+  },
+  {
+    "id": 3,
+    "code": "PG",
+    "label": "Parental Guidance Recommended",
+    "note": "These films and computer games contain material that may confuse or upset younger viewers. The content is mild in impact.",
+    "image": "PG.jpg"
+  },
+  {
+    "id": 4,
+    "code": "M",
+    "label": "Recommended for Mature Audiences",
+    "note": "These films and computer games contain material that requires a mature perspective. This classification was formerly known as M15+. There is no restriction on access. The content is moderate in impact.",
+    "image": "M.jpg"
+  },
+  {
+    "id": 5,
+    "code": "MA15+",
+    "label": "Not Suitable for Under 15s",
+    "note": "The content is considered unsuitable for exhibition by persons under the age of 15. This is a legally restricted category: persons under 15 may only legally purchase or exhibit MA15+ rated content under the supervision of an adult guardian. The content is strong in impact.",
+    "image": "MA.jpg"
+  },
+  {
+    "id": 6,
+    "code": "R18+",
+    "label": "Restricted",
+    "note": "This is a legally restricted category: persons under 18 may not buy, rent or exhibit these films. The content is high in impact.",
+    "image": "R.jpg"
+  },
+  {
+    "id": 7,
+    "code": "X18+",
+    "label": "Pornographic",
+    "note": "This is a legally restricted category: persons under 18 may not exhibit, buy or rent films that have been issued this classification.",
+    "image": "X.jpg"
+  },
+  {
+    "id": 8,
+    "code": "RC",
+    "label": "Refused Classification",
+    "note": "Films which are very high in impact and/or contain any type of violence in conjunction with real sexual intercourse are Refused Classification by the OFLC.",
+    "image": ""
+  }
+]

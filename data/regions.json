@@ -1,0 +1,52 @@
+[
+  {
+    "code": "0",
+    "label": "Region 0",
+    "note": "Informal term meaning 'worldwide'. Region 0 is not an official setting; discs that bear the Region 0 symbol either have no flag set or have flags for Regions 1–6 set."
+  },
+  {
+    "code": "1",
+    "label": "Region 1",
+    "note": "Canada, United States; U.S. territories; Bermuda."
+  },
+  {
+    "code": "2",
+    "label": "Region 2",
+    "note": "Western and Central Europe; Western Asia; Egypt, Japan, South Africa, Swaziland; British overseas territories, French overseas territories."
+  },
+  {
+    "code": "3",
+    "label": "Region 3",
+    "note": "Southeast Asia; South Korea; Non-mainland China (Hong Kong)."
+  },
+  {
+    "code": "4",
+    "label": "Region 4",
+    "note": "Oceania; Central and South America; Caribbean; Mexico."
+  },
+  {
+    "code": "5",
+    "label": "Region 5",
+    "note": "Eastern Europe, Africa, Central and South Asia, Mongolia, North Korea."
+  },
+  {
+    "code": "6",
+    "label": "Region 6",
+    "note": "Mainland China."
+  },
+  {
+    "code": "7",
+    "label": "Region 7",
+    "note": "Reserved for future use (found in use on protected screener copies of MPAA-related DVDs and 'media copies' of pre-releases in Asia)."
+  },
+  {
+    "code": "8",
+    "label": "Region 8",
+    "note": "International venues such as aircraft, cruise ships, etc."
+  },
+  {
+    "code": "ALL",
+    "label": "Region ALL",
+    "note": "Region ALL discs have all eight flags set, allowing the disc to be played in any locale on any player."
+  }
+]

@@ -1,0 +1,52 @@
+{{ define "main" }}
+<h1>{{ .Title }}</h1>
+
+<div id="product">
+
+  <div id="product-specs">
+    <table class="table">
+      <tr><th colspan="2">DVD Details</th></tr>
+      <tr><td>Year</td><td>{{ .Params.year }}</td></tr>
+      <tr><td>Running Time</td><td>{{ .Params.length }} mins</td></tr>
+      <tr><td>Presentation</td><td>{{ .Params.presentation }}</td></tr>
+      <tr><td>Aspect Ratio</td><td>{{ .Params.aspect }}</td></tr>
+      <tr><td>Format</td><td>{{ .Params.format }}</td></tr>
+      <tr><td>Encoding</td><td>{{ .Params.encoding }}</td></tr>
+      <tr><td>Audio</td><td>{{ .Params.audio }}</td></tr>
+      <tr><td>Region</td><td>{{ .Params.region_code }} &mdash; {{ .Params.region_label }}</td></tr>
+      <tr><td>Rating</td><td>
+        <img alt="{{ .Params.rating }}" src="/resource/jpg/ratings/{{ if eq .Params.rating "E" }}E.png{{ else }}{{ .Params.rating | replaceRE `\+` `` | replaceRE `15` `` | replaceRE `18` `` }}.jpg{{ end }}" />
+        {{ .Params.rating }}
+      </td></tr>
+      <tr><td>Distributor</td><td>{{ .Params.distributor }}</td></tr>
+      <tr><td>Price</td><td>AU${{ printf "%.2f" .Params.price }} (inc. GST)</td></tr>
+    </table>
+  </div>
+
+  <div id="product-image">
+    <img alt="{{ .Title }}" src="/resource/jpg/covers/{{ .Params.image }}" width="300" height="425" />
+  </div>
+
+  <div id="product-detail">
+    {{ .Params.year }} &mdash; {{ .Params.presentation }}
+
+    <div class="blurb">{{ .Content }}</div>
+
+    <p><strong>Director:</strong> {{ .Params.director }}</p>
+
+    <p><strong>Cast:</strong> {{ delimit .Params.cast ", " }}</p>
+
+    {{ if .Params.aka }}
+    <div class="aka">
+      <h3>Also Known As</h3>
+      <ul>
+        {{ range .Params.aka }}
+        <li{{ if .lang }} lang="{{ .lang }}"{{ end }}>{{ .title }}{{ if .note }} <em>({{ .note }})</em>{{ end }}</li>
+        {{ end }}
+      </ul>
+    </div>
+    {{ end }}
+  </div>
+
+</div>
+{{ end }}

@@ -1,0 +1,14 @@
+[
+  {
+    "abbr": "NTSC",
+    "note": "National Television Standards Committee. The oldest existing standard, developed in the U.S.A. First used in 1954. Consists of 525 horizontal lines of display and 60 vertical lines. Sometimes irreverently referred to as 'Never Twice the Same Color'."
+  },
+  {
+    "abbr": "SECAM",
+    "note": "Séquentiel couleur à mémoire, French for 'Sequential Colour with Memory'. Developed in France. First used in 1967. A 625 vertical line by 50 horizontal line display. Sometimes referred to as 'Something Essentially Contrary to the American Method'."
+  },
+  {
+    "abbr": "PAL",
+    "note": "Phase Alternating Line. Developed by German engineer Walter Bruch and patented in 1963; first commercial application in August 1967. Also a 625×50 line display and variant of NTSC. Proponents call it 'Perfection At Last'."
+  }
+]

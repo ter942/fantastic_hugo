@@ -1,0 +1,48 @@
+---
+title: "Blood on Satan's Claw"
+year: "1971"
+director: "Piers Haggard"
+cast:
+  - "Patrick Wymark"
+  - "Linda Hayden"
+  - "Barry Andrews"
+  - "Michele Dotrice"
+  - "James Hayter"
+  - "Anthony Ainley"
+  - "Howard Goorney"
+  - "Avice Landone"
+  - "Charlotte Mitchell"
+  - "Wendy Padbury"
+  - "Tamara Ustinov"
+  - "Simon Williams"
+length: 92
+price: 12.99
+image: "bloodsatansclaw.jpg"
+rating: "R18+"
+region_code: "2"
+region_label: "Western and Central Europe; Japan; South Africa"
+aspect: "1.85:1"
+encoding: "PAL"
+format: "16:9"
+presentation: "Colour"
+audio: "Stereo"
+distributor: "Anchor Bay"
+aka:
+  - lang: "de"
+    title: "In den Krallen des Hexenjägers"
+    note: "West Germany"
+  - lang: "fr"
+    title: "Nuit des maléfices, La"
+    note: "France"
+  - lang: "it"
+    title: "Pelle di Satana, La"
+    note: "Italy"
+  - lang: "en"
+    title: "Satan's Skin"
+    note: "UK: working title"
+  - lang: "en"
+    title: "The Devil's Skin"
+    note: "UK: original script title"
+---
+
+This chilling tale takes place in 17th century England, where the discovery of furry remains — believed to be the Devil — sparks a barrage of evil un-doings in a small town. The Devil's remains disappear, hampering the investigation by the local Judge. But the evil forces that take over are frightening proof that the Devil may indeed be among the villagers. People start going mad and children, under the guidance of the sinister Angel Blake, begin participating in unspeakable rituals in which the young and pure are sacrificed and mutilated. It is up to the Judge to exercise the demons that are destroying his village.

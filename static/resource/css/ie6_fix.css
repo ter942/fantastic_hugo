@@ -1,0 +1,18 @@
+			body {
+				behavior: url('http://220.101.23.79/resource/htc/csshover2.htc');
+				font-size: 100%;
+			}
+			#anomaly {
+				width: 98%;
+			}
+			#menu ul li {
+				float: left;
+				width: 100%;
+			}
+			#menu ul li {
+				float: left;
+				width: 100%;
+			}
+			#menu ul li a {
+				height: 1%;
+			} 

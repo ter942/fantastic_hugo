@@ -1,0 +1,40 @@
+{{ define "main" }}
+<h1>Catalogue</h1>
+
+<p>
+  Sort by:
+  <a href="/movies/">Date</a> &middot;
+  <a href="/movies/?sort=title">Title</a>
+</p>
+
+{{ $paginator := .Paginate (sort .Pages "Params.year" "asc") }}
+
+{{ range $paginator.Pages }}
+<div class="productbox">
+  <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+  <p class="year">{{ .Params.year }} &mdash; {{ .Params.rating }}</p>
+  <a href="{{ .RelPermalink }}">
+    <img alt="{{ .Title }}" src="/resource/jpg/covers/resized/{{ .Params.image | replaceRE "\\.jpg$" "-icon.jpg" }}" />
+  </a>
+  <p>{{ .Summary }} <a href="{{ .RelPermalink }}">[More]</a></p>
+</div>
+{{ end }}
+
+{{ if gt $paginator.TotalPages 1 }}
+<div class="pagination">
+  {{ if $paginator.HasPrev }}
+    <a href="{{ $paginator.Prev.URL }}">&laquo; Previous</a>
+  {{ end }}
+  {{ range $paginator.Pagers }}
+    {{ if eq . $paginator }}
+      <strong>{{ .PageNumber }}</strong>
+    {{ else }}
+      <a href="{{ .URL }}">{{ .PageNumber }}</a>
+    {{ end }}
+  {{ end }}
+  {{ if $paginator.HasNext }}
+    <a href="{{ $paginator.Next.URL }}">Next &raquo;</a>
+  {{ end }}
+</div>
+{{ end }}
+{{ end }}

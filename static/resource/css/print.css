@@ -1,0 +1,99 @@
+/* ********************************************************************************
+Styles for Fantastic Worlds for printing
+Made by: Tom Reilly  
+DO NOT CHANGE ANYTHING
+This file contains styles essential for the layout of the page  
+Content ids should be in the following order: banner, menu, login, content, footer
+*********************************************************************************** */
+
+body {
+	margin:0;
+}
+.breadcrumb {
+	display:none;
+}
+#banner {
+	border:1px solid #ffffff;
+	margin-left: 5%;
+	margin-right: 15%;
+	background-image:url(../jpg/banner-background.jpg);
+}
+#content {
+	background-color:#ffffcc;
+	border:2px solid #000000;
+	margin-right:10%;
+	margin-left:10%;
+	height:50%;
+}
+#content p {
+	margin-left: 1em;
+}
+#content ul li {
+	list-style-type:none;
+}
+#content h1 {
+	text-align:center;
+	font-family:sans-serif;
+	font-weight:bold;
+}
+#content .courier h2 {
+	margin-left:2em;
+	font-family:courier;
+}
+#content #offer1 {
+	margin-left:18%;
+	margin-right:18%;
+	margin-bottom:5%;
+}
+#productright {
+	float:right;
+	display:inline-block;
+	border:1px red solid;
+	padding-right:3px;
+	margin: 3px 4px 3px 3px;
+}
+#productright img {
+	border:0;
+}
+#productright table tr th {
+	margin-right:1em;
+	background-color:#ff6600;
+	
+}
+#productright .cart {
+	margin-top:4%;
+	margin-left:30%;
+	margin-bottom:4%;
+}
+
+#content #offer1 img {
+	border-style:none;
+}
+#content #catagories {
+	/*float:right;*/
+	border:2px red solid;
+	width:4.2cm;
+	margin:0 0 1cm 1cm;
+}
+#content #catagories h2 {
+	margin-top:0;
+	border-bottom:2px solid red;
+	text-align:center;
+}
+#content form {
+	display:none;
+}
+#footer {
+	text-align:center;
+}
+
+#login {
+	display:none;
+}
+#menu {
+	display:none;
+}
+
+
+
+

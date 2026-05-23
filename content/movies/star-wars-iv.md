@@ -1,0 +1,45 @@
+---
+title: "Star Wars IV: A New Hope"
+year: "1977"
+director: "George Lucas"
+cast:
+  - "Mark Hamill"
+  - "Harrison Ford"
+  - "Carrie Fisher"
+  - "Peter Cushing"
+  - "Alec Guinness"
+  - "Anthony Daniels"
+  - "Kenny Baker"
+  - "Peter Mayhew"
+  - "James Earl Jones"
+length: 121
+price: 29.95
+image: "starwars.jpg"
+rating: "PG"
+region_code: "4"
+region_label: "Oceania; Central and South America; Caribbean; Mexico"
+aspect: "1.85:1"
+encoding: "PAL"
+format: "16:9"
+presentation: "Colour"
+audio: "Stereo"
+distributor: "Fox"
+aka:
+  - lang: "en"
+    title: "Adventures of the Starkiller: Episode 1 - The Star Wars"
+    note: "USA: working title"
+  - lang: "es"
+    title: "La guerra de las estrellas"
+    note: "USA: Spanish title"
+  - lang: "en"
+    title: "Star Wars IV: A New Hope"
+    note: "USA: video box title"
+  - lang: "en"
+    title: "Star Wars: Episode IV - A New Hope"
+    note: "USA: reissue title"
+  - lang: "en"
+    title: "The Star Wars"
+    note: "USA: original script title"
+---
+
+Part IV in a George Lucas epic, Star Wars: A New Hope opens with a rebel ship being boarded by the tyrannical Darth Vader. The plot then follows the life of a simple farmboy, Luke Skywalker, as he and his newly met allies — Han Solo, Chewbacca, Ben Kenobi, C-3PO, R2-D2 — attempt to rescue a rebel leader, Princess Leia, from the clutches of the Empire. The conclusion is culminated as the Rebels, including Skywalker and flying ace Wedge Antilles, make an attack on the Empire's most powerful and ominous weapon, the Death Star.

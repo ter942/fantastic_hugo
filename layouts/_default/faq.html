@@ -1,0 +1,51 @@
+{{ define "main" }}
+<h1>FAQ</h1>
+
+<h2>What are DVD Region Codes?</h2>
+<p>DVD region coding is a digital rights management technique designed to allow film distributors to control the international distribution of a DVD release. The following table lists the regions and the areas they cover.</p>
+
+<table class="table">
+  <tr>
+    <th>Region</th>
+    <th>Area</th>
+  </tr>
+  {{ range hugo.Data.regions }}
+  <tr>
+    <td><strong>{{ .label }}</strong> ({{ .code }})</td>
+    <td>{{ .note }}</td>
+  </tr>
+  {{ end }}
+</table>
+
+<h2>Australian Film Ratings (OFLC)</h2>
+<p>The following ratings are used by the Australian Office of Film and Literature Classification.</p>
+
+<table class="table">
+  <tr>
+    <th>Rating</th>
+    <th>Description</th>
+  </tr>
+  {{ range hugo.Data.ratings }}
+  <tr>
+    <td>
+      {{ if .image }}
+        <img alt="{{ .code }}" src="/resource/jpg/ratings/{{ .image }}" /><br />
+      {{ end }}
+      <strong>{{ .code }}</strong><br />{{ .label }}
+    </td>
+    <td>{{ .note }}</td>
+  </tr>
+  {{ end }}
+</table>
+
+<h2>TV Encoding Standards</h2>
+<table class="table">
+  <tr><th>Standard</th><th>Description</th></tr>
+  {{ range hugo.Data.encodings }}
+  <tr>
+    <td><strong>{{ .abbr }}</strong></td>
+    <td>{{ .note }}</td>
+  </tr>
+  {{ end }}
+</table>
+{{ end }}
